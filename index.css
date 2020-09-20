@@ -1,18 +1,71 @@
-body{
-    background-color: #F0FFFF;
-}
-
 .btn{
     cursor: pointer;
 }
 
-body{
+#clock{
+    color: #F0FFFF;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+h1{
+    margin: 5px;
+}
+
+input{
+    border: 0;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: white;
+    outline: none;
+    background-color: transparent;
+    color:#F0FFFF;
+}
+
+#userName{
+    font-size: 60px;
+    width: 550px;
+    height: 100px;
+}
+
+#greetingName{
+    font-size: 60px;
+    margin: 15px
+}
+
+::placeholder{
     color: #F0FFFF;
 }
 
-.color{
-    color: #7f8c8d; 
+#toDo{
+    font-size: 40px;
+    width: 450px;
+    height: 70px;
 }
+
+#holderName{
+    color: #F0FFFF;
+}
+
+#toDoList{
+    list-style: none;
+    font-size: 30px;
+    color: greenyellow;
+}
+
+#weatherInfo{
+    position: relative;
+    font-size: 40px;
+    color: slateblue;
+    left: 700px;
+    top: 40px;
+}
+
+body{
+    color: #F0FFFF;
+    text-align: center;
+}
+
 
 .form,
 .greetings{
